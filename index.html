@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="timerDiv"></div>
+   <form id="myForm" onsubmit="return validate()">
+        <label id="firstNameLabel"><b>First Name:</b></label>
+        <input type="text" id="firstNameInput" placeholder="Enter Your Name">
+        <br>
+        <label id="lastNameLabel"><b>Last Name:</b></label>
+        <input type="text" id="lastNameInput" placeholder="Enter Your Last Name">
+        <br>
+        <label id="birthdayLabel"><b>Birthday:</b></label>
+        <input type="date" id="birthdayInput" placeholder="Enter Your Birthday">
+        <br>    
+        <label id="emailLabel"><b>E-mail:</b></label>
+        <input type="email" id="emailInput" placeholder="Enter Email">
+        <br>
+        <label id="phoneLabel"><b>Phone Number:</b></label>
+        <input type="tel" pattern="[0-9]{10}" id="phoneInput">
+        <br>
+        <label id="positionLabel"><b>position:</b></label>
+        <input type="text" id="positionInput">
+        <br>
+        <button id="myBtn">submit</button>
+        </form>
+        <script src="main.js"></script>
+</body>
+</html>
